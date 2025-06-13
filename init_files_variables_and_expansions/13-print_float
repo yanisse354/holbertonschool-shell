@@ -1,2 +1,2 @@
 #!/bin/bash
-float=$(awk "BEGIN {print $NUM + 0}")
+printf "%.2f\n" "$Num"
